@@ -1,6 +1,14 @@
 
 
 
+module "recource_group" {
+  source              = "../modules/resourse group"
+  resource_group_name = "Achinta"
+  location            = "central india"
+
+
+}
+
 module "virtual_network" {
   source = "../modules/virtual network"
   depends_on = [ module.recource_group ]
