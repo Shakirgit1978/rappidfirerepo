@@ -10,35 +10,6 @@ module "recource_group" {
   location            = "central india"
 }
 
-module "recource_group" {
-  source              = "../modules/resourse group"
-  resource_group_name = "shakir"
-  location            = "central india"
-
-}
-module "recource_group" {
-  source              = "../modules/resourse group"
-  resource_group_name = "Deepak"
-  location            = "central india"
-
-
-}
-
-module "recource_group_achinta1" {
-  source              = "../modules/resourse group"
-  resource_group_name = "todoapp_achinta1"
-  location            = "south india"
-
-
-}
-
-module "recource_group_achinta" {
-  source              = "../modules/resourse group"
-  resource_group_name = "todoapp_achinta"
-  location            = "south india"
-
-
-}
 
 module "virtual_network" {
   source = "../modules/virtual network"
