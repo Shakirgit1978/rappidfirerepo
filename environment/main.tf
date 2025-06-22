@@ -6,6 +6,14 @@ module "recource_group" {
 
 }
 
+module "recource_group_achinta1" {
+  source              = "../modules/resourse group"
+  resource_group_name = "todoapp_achinta1"
+  location            = "south india"
+
+
+}
+
 module "virtual_network" {
   source = "../modules/virtual network"
   depends_on = [ module.recource_group ]
