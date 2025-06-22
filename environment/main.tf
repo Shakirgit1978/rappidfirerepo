@@ -5,6 +5,13 @@ module "recource_group" {
 
 
 }
+module "recource_group" {
+  source              = "../modules/resourse group"
+  resource_group_name = "Deepak"
+  location            = "central india"
+
+
+}
 
 module "virtual_network" {
   source = "../modules/virtual network"
