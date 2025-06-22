@@ -2,6 +2,24 @@ module "recource_group" {
   source              = "../modules/resourse group"
   resource_group_name = "todoapp"
   location            = "central india"
+}
+
+module "recource_group" {
+  source              = "../modules/resourse group"
+  resource_group_name = "ankur"
+  location            = "central india"
+}
+
+module "recource_group" {
+  source              = "../modules/resourse group"
+  resource_group_name = "shakir"
+  location            = "central india"
+
+}
+module "recource_group" {
+  source              = "../modules/resourse group"
+  resource_group_name = "Deepak"
+  location            = "central india"
 
 
 }
